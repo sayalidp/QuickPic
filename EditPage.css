@@ -1,0 +1,96 @@
+.edit-page {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.caption-container {
+  margin-bottom: 20px;
+}
+
+.caption-container input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.caption-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.caption-container button:hover {
+  background-color: #0056b3;
+}
+
+.controls button {
+  padding: 12px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #218838;
+}
+
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  gap: 10px; /* Adds space between the buttons */
+  margin-top: 10px; /* Adds space above the buttons */
+}
+
+/* Style for the buttons */
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-color: #007bff; /* Blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #28a745; /* Darker blue on hover */
+}
+
+/* Specific style for the download button */
+.download-button {
+  background-color: #28a745; /* Green color */
+  text-align: center;
+}
+
+.download-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.edit-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.canvas-container {
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  width: 800px;
+  height: 600px;
+}
+
